@@ -1,5 +1,7 @@
 *{
     background-color:darksalmon;
+    margin: 0;
+    padding: 0;
 }
 p{
     column-count: 3;
@@ -7,7 +9,7 @@ p{
     column-rule: solid 2px red
 }
 
-h1:hover
+h1 span:hover
 {
     color: aqua;
 }
