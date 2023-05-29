@@ -1,0 +1,15 @@
+div#uno{
+    width: 400px;
+    height: 200px;
+    background-color: greenyellow;
+    overflow: auto;
+    font-size: large;
+}
+
+div#dos{
+    width: 400px;
+    height: 200px;
+    background-color: greenyellow;
+    overflow: hidden;
+    font-size: large;
+}
