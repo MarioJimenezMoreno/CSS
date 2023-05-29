@@ -1,0 +1,30 @@
+.caja{
+background-color: red;
+width: 250px;
+height: 250px;
+position: static;
+margin: 50px;
+border: black solid 2px;
+}
+
+.n{
+background-color: lime;
+position: absolute;
+text-align: center;
+height: 25px;
+width: 25px;
+border-radius: 60px;
+border: black solid 2px;
+}
+.n1{
+    transform: translate(-15px, -15px);
+}
+.n2{
+    transform: translate(235px,-15px);
+}
+.n3{
+    transform: translate(-15px,235px);
+}
+.n4{
+    transform: translate(235px,235px);
+}
