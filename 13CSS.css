@@ -1,0 +1,80 @@
+.colores{
+    border-radius: 50px;
+    height: 100px;
+    width: 100px;
+    margin: 5px;
+    float: left;
+}
+i{
+    clear: both;
+    float: left;
+    margin-left: 120px;
+}
+
+article{
+    float: left ;
+    margin-top: 45px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.prim-1{
+
+background-color: red;
+
+}
+.prim-2{
+    margin-left: 25px;
+background-color: green;
+
+}
+.prim-3{
+    margin-left: 25px;
+background-color: blue;
+
+}
+
+.sec-1
+{
+background-color: red;
+clear: both;
+}
+.sec-2
+{
+background-color: blue;
+}
+.sec-3
+{
+background-color: purple;
+}
+.sec-4
+{
+    clear:both;
+background-color: blue;
+}
+.sec-5
+{
+background-color: green;
+}
+.sec-6
+{
+background-color: cyan;
+}
+.sec-7
+{
+    clear:both;
+background-color: green;
+}
+.sec-8
+{
+background-color: red;
+}
+
+.sec-9
+{
+background-color: yellow;
+}
+
+
+
+
