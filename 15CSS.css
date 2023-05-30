@@ -5,7 +5,7 @@ body{
 
     width: 100vw;
     height: 15vh;
-    margin: 0.5vw;
+    margin: 0.25vw;
 
 }
 .orange{
@@ -19,10 +19,9 @@ background-color: lightblue;
 }
 .lime{
 background-color: lightgreen;
-margin-inline:0.25vw;
+
 }
 .grey{
-    
 background-color: lightgrey;
 }
 
@@ -30,11 +29,22 @@ background-color: lightgrey;
     .orange{
         float: left;
         width: 48vw;
-        margin: 0.25vw;
+
     }
     .blue{
         float: left;
         width: 32vw;
-        margin: 0.25vw;
     }
+    .grey{
+        float: left;
+        width: 24vw;
+    }
+}
+
+@media (768px <= width <= 1024px){
+    .grey{
+        float: left;
+        width: 48vw;
+    }
+
 }
