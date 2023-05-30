@@ -1,3 +1,7 @@
+body
+{
+background-color: coral;
+}
 .padre{
 position: static;
 background-color: red;
@@ -7,65 +11,97 @@ background-color: red;
     border-radius: 250px;
 }
 .hijo{
-position: relative;
-border-radius: 250px;
+    top: 10px;
+    left: 10px;
+    position: relative;
+    border-radius: 250px;
 }
 
-.hijo:nth-child(even){
+/* .hijo:nth-child(even){
     background-color: red;
    
 }
 .hijo:nth-child(odd){
     background-color: white;
-}
+} */
 .hijo-1
 {
-    transform:translate(75px,75px);
+    top: 12px;
+    left: 12px;
+    background-color: white;
     z-index: 1px;
     width: 275px;
     height: 275px;
 }
 .hijo-2
 {
-    transform:translate(75px,75px);
+    background-color: red;
     width: 250px;
     height: 250px;
     z-index: 2px;
 }
 .hijo-3
 {
-    transform:translate(75px,75px);
-    width: 200px;
-    height: 200px;
+    background-color: white;
+    width: 225px;
+    height: 225px;
     z-index: 3px;
 }
 .hijo-4
 {
-    width: 150px;
-    height: 150px;
+    background-color: red;
+    width: 200px;
+    height: 200px;
     z-index: 4px;
 }
 .hijo-5
 {
-    width: 150px;
-    height: 150px;
+    background-color: white;
+    width: 175px;
+    height: 175px;
     z-index: 5px;
 }
 .hijo-6
 {
-    width: 200px;
-    height: 200px;
+    background-color: red;
+    width: 150px;
+    height: 150px;
     z-index: 6px;
 }
 .hijo-7
 {
-    width: 200px;
-    height: 200px;
+    background-color: white;
+    width: 125px;
+    height: 125px;
     z-index: 7px;
 }
 .hijo-8
 {
-    width: 200px;
-    height: 200px;
+    background-color: red;
+    width: 100px;
+    height: 100px;
     z-index: 8px;
+}
+
+.hijo-9
+{
+    background-color: white;
+    width: 75px;
+    height: 75px;
+    z-index: 9px;
+}
+
+.hijo-10
+{
+    background-color: red;
+    width: 50px;
+    height: 50px;
+    z-index: 10px;
+}
+.hijo-11
+{
+    background-color: white;
+    width: 25px;
+    height: 25px;
+    z-index: 11px;
 }

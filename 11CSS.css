@@ -1,0 +1,10 @@
+p{
+    height: 50%;
+    width: 50%;
+    float: left;
+}
+img{
+    float: right;
+    height: 50%;
+    width: 50%;
+}
