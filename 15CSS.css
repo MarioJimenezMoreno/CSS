@@ -1,0 +1,40 @@
+body{
+    margin: 0px;
+}
+.square{
+
+    width: 100vw;
+    height: 15vh;
+    margin: 0.5vw;
+
+}
+.orange{
+    background-color: orange;
+}
+article{
+    clear: both;
+}
+.blue{
+background-color: lightblue;
+}
+.lime{
+background-color: lightgreen;
+margin-inline:0.25vw;
+}
+.grey{
+    
+background-color: lightgrey;
+}
+
+@media (min-width:1024px){ 
+    .orange{
+        float: left;
+        width: 48vw;
+        margin: 0.25vw;
+    }
+    .blue{
+        float: left;
+        width: 32vw;
+        margin: 0.25vw;
+    }
+}
