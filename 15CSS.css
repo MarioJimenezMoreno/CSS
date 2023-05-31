@@ -5,14 +5,14 @@ body{
 
     width: 100vw;
     height: 15vh;
-    margin: 0.25vw;
+    margin: 1px;
 
 }
 article{
     clear: both;
 }
 .orange{
-    background-color: orange;
+background-color: orange;
 }
 .blue{
 background-color: lightblue;
@@ -33,7 +33,7 @@ background-color: lightgrey;
     }
     .blue{
         float: left;
-        width: 32vw;
+        width: 33vw;
     }
     .grey{
         float: left;
