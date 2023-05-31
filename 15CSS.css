@@ -8,11 +8,11 @@ body{
     margin: 0.25vw;
 
 }
-.orange{
-    background-color: orange;
-}
 article{
     clear: both;
+}
+.orange{
+    background-color: orange;
 }
 .blue{
 background-color: lightblue;

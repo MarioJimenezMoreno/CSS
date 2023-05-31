@@ -1,88 +1,76 @@
-
-/* display:flex;
-justify-content: center;
-align-items:center; */
-
 body
 {
 background-color: coral;
+}
+
+div{
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
 }
 .padre{
 position: static;
 background-color: red;
     width: 300px;
     height: 300px;
-    margin: 100px;
-    border-radius: 250px;
+    margin: 100px;   
 }
 .hijo{
-    top: 10px;
-    left: 10px;
-    position: relative;
-    border-radius: 250px;
+    position: absolute;
 }
 
-/* .hijo:nth-child(even){
-    background-color: red;
-   
-}
 .hijo:nth-child(odd){
     background-color: white;
-} */
+   
+}
+.hijo:nth-child(even){
+    background-color: red;
+} 
 .hijo-1
 {
-    top: 12px;
-    left: 12px;
-    background-color: white;
     z-index: 1px;
     width: 275px;
     height: 275px;
 }
 .hijo-2
 {
-    background-color: red;
     width: 250px;
     height: 250px;
     z-index: 2px;
 }
 .hijo-3
 {
-    background-color: white;
     width: 225px;
     height: 225px;
     z-index: 3px;
 }
 .hijo-4
 {
-    background-color: red;
     width: 200px;
     height: 200px;
     z-index: 4px;
 }
 .hijo-5
 {
-    background-color: white;
     width: 175px;
     height: 175px;
     z-index: 5px;
 }
 .hijo-6
 {
-    background-color: red;
     width: 150px;
     height: 150px;
     z-index: 6px;
 }
 .hijo-7
 {
-    background-color: white;
     width: 125px;
     height: 125px;
     z-index: 7px;
 }
 .hijo-8
 {
-    background-color: red;
     width: 100px;
     height: 100px;
     z-index: 8px;
@@ -90,7 +78,6 @@ background-color: red;
 
 .hijo-9
 {
-    background-color: white;
     width: 75px;
     height: 75px;
     z-index: 9px;
@@ -98,14 +85,12 @@ background-color: red;
 
 .hijo-10
 {
-    background-color: red;
     width: 50px;
     height: 50px;
     z-index: 10px;
 }
 .hijo-11
 {
-    background-color: white;
     width: 25px;
     height: 25px;
     z-index: 11px;
