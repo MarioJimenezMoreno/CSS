@@ -9,12 +9,40 @@ div{
     justify-content: center;
     align-items: center;  
 }
+.metal {
+    width: 325px;
+    height: 325px;
+    background: linear-gradient(to top, grey 0%, white 100%);
+    border-radius: 100%;
+    position: absolute;
+    box-sizing: border-box;
+    margin-left: 87.5px;
+    margin-top: 87.5px;
+}
+.vertical{
+    position: absolute;
+    width: 2px;
+    height: 300px;
+    background-color: black;
+    z-index: 12px;
+}
+.horizontal{
+    position: absolute;
+    height: 2px;
+    width: 300px;
+    background-color: black;
+    z-index: 12px;
+
+}
+
 .padre{
-position: static;
+position: absolute;
 background-color: red;
     width: 300px;
     height: 300px;
-    margin: 100px;   
+    margin: 100px; 
+   
+      
 }
 .hijo{
     position: absolute;
